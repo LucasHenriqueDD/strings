@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "Q5.C": "cpp"
+        "Q5.C": "cpp",
+        "printasobre.h": "c",
+        "stdio.h": "c"
     }
 }

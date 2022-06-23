@@ -4,13 +4,12 @@
 /*Implemente a função int compara (char string1 [ ], char string2 [ ]) que retorna 1 caso
 as strings sejam iguais e 0 caso contrário.
 */
-//TA DANDO ERRADO....
 int main(){
-    char v[5];
-    char j[5];
-    printf("Digite uma string de 5 Letras\n");
+    char v[20];
+    char j[20];
+    printf("Digite uma string de ate 20 Letras\n");
     scanf("%s",v);
-    printf("Digite outra string de 5 letras\n");
+    printf("Digite outra string de ate 20 letras\n");
     scanf("%s",j);
     if(compstring(v,j)==1){
         printf("As strings sao iguais...\n");
